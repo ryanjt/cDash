@@ -1,0 +1,7 @@
+{
+  "name": "cDash",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
