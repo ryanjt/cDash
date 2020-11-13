@@ -1,0 +1,8 @@
+[
+    { "name": "NHS 1", "cases": "10" },
+    { "name": "NHS 2", "cases": "5" },
+    { "name": "NHS 3", "cases": "2" },
+    { "name": "NHS 4", "cases": "100" },
+    { "name": "NHS 5", "cases": "67" },
+    { "name": "NHS 6", "cases": "20" }
+]

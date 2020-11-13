@@ -1,3 +1,22 @@
 <ion-app>
-  <ion-router-outlet></ion-router-outlet>
+    <ion-split-pane contentId="content">
+        <ion-menu side="start" menuId="first" contentId="content">
+            <ion-header>
+                <ion-toolbar color="tertiary">
+                    <ion-title style="color:black;">C19-Dash - 🏴󠁧󠁢󠁳󠁣󠁴󠁿</ion-title>
+                </ion-toolbar>
+            </ion-header>
+            <ion-content color="light">
+                <ion-list  *ngFor="let pages of navigate">
+                    <ion-menu-toggle auto-hide="false">
+                        <ion-item [routerLink]="pages.url" routerDirection="forward">
+                            <ion-icon  [name]="pages.icon" slot="start"></ion-icon>
+                            {{pages.title}}
+                        </ion-item>
+                    </ion-menu-toggle>
+                </ion-list>
+            </ion-content>
+        </ion-menu>
+        <ion-router-outlet Id="content"></ion-router-outlet>
+    </ion-split-pane>
 </ion-app>

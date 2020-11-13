@@ -1,0 +1,59 @@
+<ion-header>
+    <ion-toolbar color="primary">
+        <ion-buttons slot="start">
+            <ion-menu-button color="dark"></ion-menu-button>
+        </ion-buttons>
+        <ion-title>
+            Home
+        </ion-title>
+    </ion-toolbar>
+</ion-header>
+<ion-content padding>
+    <!-- <ion-input #text1 class="rounded-inp single-inp" type="text" placeholder="Location"></ion-input> -->
+    <div class="ion-padding">
+        <ion-grid>
+            <ion-row>
+                <ion-col col-12 col-md-6 col-lg-4 col-xl-3>
+                    <ion-card>
+                        <ion-card-header>
+                            Bar Chart
+                        </ion-card-header>
+                        <ion-card-content>
+                            <div style="overflow-x: scroll">
+                            <div class="chart-container" style="position: relative;  width:900px;">
+                                <canvas #barCanvas></canvas>
+                            </div>
+                            </div>
+                            
+                        </ion-card-content>
+                    </ion-card>
+
+
+                    <ion-card>
+                        <ion-card-header>
+                            Doughnut Chart
+                        </ion-card-header>
+                        <ion-card-content>
+                            <canvas #doughnutCanvas></canvas>
+                        </ion-card-content>
+                    </ion-card>
+
+                    <ion-card>
+                        <ion-card-header>
+                            Line Chart
+                        </ion-card-header>
+                        <ion-card-content>
+                            <div>
+                                <canvas #lineCanvas></canvas>
+                            </div>
+                            
+                        </ion-card-content>
+                    </ion-card>
+                </ion-col>
+            </ion-row>
+
+        </ion-grid>
+    </div>
+</ion-content>
+<script src="node_modules/chart.js/Chart.min.js"></script>
+<script src="node_modules/angular-chart.js/dist/angular-chart.min.js"></script>
