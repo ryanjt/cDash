@@ -248,7 +248,8 @@
         },
         "properties": {
           "levels": "High",
-          "cases": 260
+          "cases": 260,
+          "area" : "Brunstane/Gilberstoun"
         }
       },
       {
@@ -436,7 +437,8 @@
         },
         "properties": {
           "levels": "Low",
-          "cases": 6
+          "cases": 6,
+          "area" : "Newcraighall"
         }
       },
       {
@@ -686,7 +688,8 @@
         },
         "properties": {
           "levels": "High",
-          "cases": 250
+          "cases": 250,
+          "area" : "Magdalene"
         }
       },
       {
