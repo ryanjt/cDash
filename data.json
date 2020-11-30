@@ -1091,7 +1091,8 @@
         },
         "properties": {
           "levels": "Low",
-          "cases": 1
+          "cases": 10,
+          "area" : "Newbridge"
         }
       },
       {
@@ -1357,7 +1358,8 @@
         },
         "properties": {
           "levels": "High",
-          "cases": 250
+          "cases": 100,
+          "area" : "Cammo/Strathalmond"
         }
       },
       {
@@ -1698,8 +1700,9 @@
           ]
         },
         "properties": {
-          "levels": "Low",
-          "cases": 2
+          "levels": "Medium",
+          "cases": 50,
+          "area" : "Muirhouse"
         }
       },
       {
@@ -1956,6 +1959,9 @@
           ]
         },
         "properties": {
+          "levels": "Low",
+          "cases": 5,
+          "area" : "Granton/West Pilton"
 
         }
       },
@@ -2221,8 +2227,9 @@
           ]
         },
         "properties": {
-          "levels": "Medium",
-          "cases": 50
+          "levels": "Low",
+          "cases": 5,
+          "area" : "Broomhouse"
         }
       },
       {
@@ -2727,8 +2734,9 @@
           ]
         },
         "properties": {
-          "levels": "Medium",
-          "cases": 50
+          "levels": "Low",
+          "cases": 5,
+          "area" : "Ratho Station/Ingliston/Gogar"
         }
       },
       {
@@ -4898,7 +4906,8 @@
         },
         "properties": {
           "levels": "High",
-          "cases": 100
+          "cases": 100,
+          "area" : "South Queensferry/Dalmeny"
         }
       },
       {
@@ -6300,7 +6309,11 @@
             ]
           ]
         },
-        "properties": {}
+        "properties": {
+          
+          "cases": 0,
+          "area" : "Gilmerton"
+        }
       },
       {
         "type": "Feature",
@@ -6971,7 +6984,11 @@
             ]
           ]
         },
-        "properties": {}
+        "properties": {
+          
+          "cases": 0,
+          "area" : "Portobello"
+        }
       },
       {
         "type": "Feature",
@@ -7950,7 +7967,11 @@
             ]
           ]
         },
-        "properties": {}
+        "properties": {
+          "levels": "Low",
+          "cases": 10,
+          "area" : "Liberton"
+        }
       },
       {
         "type": "Feature",
@@ -8429,7 +8450,11 @@
             ]
           ]
         },
-        "properties": {}
+        "properties": {
+          
+          "cases": 0,
+          "area" : "Willowbrae"
+        }
       },
       {
         "type": "Feature",
@@ -10560,7 +10585,11 @@
             ]
           ]
         },
-        "properties": {}
+        "properties": {
+          
+          "cases": 0,
+          "area" : "Balerno"
+        }
       },
       {
         "type": "Feature",
@@ -11671,7 +11700,11 @@
             ]
           ]
         },
-        "properties": {}
+        "properties": {
+
+          "cases": 0,
+          "area" : "Ratho"
+        }
       },
       {
         "type": "Feature",
@@ -12002,7 +12035,11 @@
             ]
           ]
         },
-        "properties": {}
+        "properties": {
+
+          "cases": 0,
+          "area" : "Calton Hill"
+        }
       },
       {
         "type": "Feature",
@@ -12597,7 +12634,11 @@
             ]
           ]
         },
-        "properties": {}
+        "properties": {
+
+          "cases": 0,
+          "area" : "Blackford"
+        }
       },
       {
         "type": "Feature",
@@ -12821,8 +12862,9 @@
           ]
         },
         "properties": {
-          "levels": "Low",
-          "cases": 5
+          
+          "cases": 0,
+          "area" : "Drylaw"
         }
       },
       {
@@ -13601,8 +13643,9 @@
           ]
         },
         "properties": {
-          "levels": "High",
-          "cases": 210
+          "levels": "Low",
+          "cases": 5,
+          "area" : "Morningside"
         }
       },
       {
@@ -13950,7 +13993,11 @@
             ]
           ]
         },
-        "properties": {}
+        "properties": {
+
+          "cases": 0,
+          "area" : "Prestonfield"
+        }
       },
       {
         "type": "Feature",
@@ -18144,7 +18191,8 @@
         },
         "properties": {
           "levels": "Medium",
-          "cases": 35
+          "cases": 25,
+          "area" : "Fountainbridge"
         }
       },
       {
@@ -20491,7 +20539,11 @@
             ]
           ]
         },
-        "properties": {}
+        "properties": {
+
+          "cases": 0,
+          "area" : "Canonmills"
+        }
       },
       {
         "type": "Feature",
@@ -28146,7 +28198,11 @@
             ]
           ]
         },
-        "properties": {}
+        "properties": {
+          "levels": "High",
+          "cases": 500,
+          "area" : "Old Town"
+        }
       },
       {
         "type": "Feature",
@@ -28697,7 +28753,11 @@
             ]
           ]
         },
-        "properties": {}
+        "properties": {
+          "levels": "Low",
+          "cases": 15,
+          "area" : "Tollcross"
+        }
       },
       {
         "type": "Feature",
@@ -38333,7 +38393,11 @@
             ]
           ]
         },
-        "properties": {}
+        "properties": {
+          "levels": "High",
+          "cases": 500,
+          "area" : "Merchiston and Myreside"
+        }
       },
       {
         "type": "Feature",
