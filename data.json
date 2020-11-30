@@ -10586,8 +10586,8 @@
           ]
         },
         "properties": {
-          
-          "cases": 0,
+          "levels": "High",
+          "cases": 200,
           "area" : "Balerno"
         }
       },
@@ -18808,7 +18808,11 @@
             ]
           ]
         },
-        "properties": {}
+        "properties": {
+          "levels": "Medium",
+          "cases": 56,
+          "area" : "Murrayfield"
+        }
       },
       {
         "type": "Feature",
@@ -26678,7 +26682,11 @@
             ]
           ]
         },
-        "properties": {}
+        "properties": {
+          "levels": "Low",
+          "cases": 5,
+          "area" : "Colington"
+        }
       },
       {
         "type": "Feature",
@@ -48005,7 +48013,11 @@
             ]
           ]
         },
-        "properties": {}
+        "properties": {
+          "levels": "Medium",
+          "cases": 55,
+          "area" : "Leith"
+        }
       },
       {
         "type": "Feature",
@@ -53276,7 +53288,11 @@
             ]
           ]
         },
-        "properties": {}
+        "properties": {
+          "levels": "Low",
+          "cases": 5,
+          "area" : "New Town"
+        }
       },
       {
         "type": "Feature",
