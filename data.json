@@ -433,7 +433,9 @@
             ]
           ]
         },
-        "properties": {}
+        "properties": {
+            "levels": "Low"
+        }
       },
       {
         "type": "Feature",
@@ -680,7 +682,9 @@
             ]
           ]
         },
-        "properties": {}
+        "properties": {
+            "levels": "High"
+        }
       },
       {
         "type": "Feature",
@@ -1079,7 +1083,9 @@
             ]
           ]
         },
-        "properties": {}
+        "properties": {
+            "levels": "Low"
+        }
       },
       {
         "type": "Feature",
@@ -1342,7 +1348,9 @@
             ]
           ]
         },
-        "properties": {}
+        "properties": {
+            "levels": "High"
+        }
       },
       {
         "type": "Feature",
