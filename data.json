@@ -247,7 +247,8 @@
           ]
         },
         "properties": {
-          "levels": "High"
+          "levels": "High",
+          "cases": 260
         }
       },
       {
@@ -434,7 +435,8 @@
           ]
         },
         "properties": {
-          "levels": "Low"
+          "levels": "Low",
+          "cases": 6
         }
       },
       {
@@ -683,7 +685,8 @@
           ]
         },
         "properties": {
-          "levels": "High"
+          "levels": "High",
+          "cases": 250
         }
       },
       {
@@ -1084,7 +1087,8 @@
           ]
         },
         "properties": {
-          "levels": "Low"
+          "levels": "Low",
+          "cases": 1
         }
       },
       {
@@ -1349,7 +1353,8 @@
           ]
         },
         "properties": {
-          "levels": "High"
+          "levels": "High",
+          "cases": 250
         }
       },
       {
@@ -1690,7 +1695,8 @@
           ]
         },
         "properties": {
-          "levels": "Low"
+          "levels": "Low",
+          "cases": 2
         }
       },
       {
@@ -2212,7 +2218,8 @@
           ]
         },
         "properties": {
-          "levels": "Medium"
+          "levels": "Medium",
+          "cases": 50
         }
       },
       {
@@ -2717,7 +2724,8 @@
           ]
         },
         "properties": {
-          "levels": "Medium"
+          "levels": "Medium",
+          "cases": 50
         }
       },
       {
@@ -4886,7 +4894,8 @@
           ]
         },
         "properties": {
-          "levels": "High"
+          "levels": "High",
+          "cases": 100
         }
       },
       {
@@ -12809,7 +12818,8 @@
           ]
         },
         "properties": {
-          "levels": "Low"
+          "levels": "Low",
+          "cases": 5
         }
       },
       {
@@ -13588,7 +13598,8 @@
           ]
         },
         "properties": {
-          "levels": "High"
+          "levels": "High",
+          "cases": 210
         }
       },
       {
@@ -18129,7 +18140,8 @@
           ]
         },
         "properties": {
-          "levels": "Medium"
+          "levels": "Medium",
+          "cases": 35
         }
       },
       {
