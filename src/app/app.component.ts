@@ -45,15 +45,16 @@ export class AppComponent {
         icon  : "home"
       },
       {
-        title : "Test1",
-        url   : "/test1",
-        icon  : "bar-chart-outline"
+        title : "Daily Updates",
+        url   : "/test2",
+        icon  : "calendar-outline"
       },
       {
-        title : "Test2",
-        url   : "/test2",
-        icon  : "map-outline"
+        title : "Affected Areas",
+        url   : "/test1",
+        icon  : "alert-outline"
       },
+      
     ]
   }
 }
