@@ -434,7 +434,7 @@
           ]
         },
         "properties": {
-            "levels": "Low"
+          "levels": "Low"
         }
       },
       {
@@ -683,7 +683,7 @@
           ]
         },
         "properties": {
-            "levels": "High"
+          "levels": "High"
         }
       },
       {
@@ -1084,7 +1084,7 @@
           ]
         },
         "properties": {
-            "levels": "Low"
+          "levels": "Low"
         }
       },
       {
@@ -1349,7 +1349,7 @@
           ]
         },
         "properties": {
-            "levels": "High"
+          "levels": "High"
         }
       },
       {
@@ -1689,7 +1689,9 @@
             ]
           ]
         },
-        "properties": {}
+        "properties": {
+          "levels": "Low"
+        }
       },
       {
         "type": "Feature",
@@ -1944,7 +1946,9 @@
             ]
           ]
         },
-        "properties": {}
+        "properties": {
+
+        }
       },
       {
         "type": "Feature",
@@ -2207,7 +2211,9 @@
             ]
           ]
         },
-        "properties": {}
+        "properties": {
+          "levels": "Medium"
+        }
       },
       {
         "type": "Feature",
@@ -2710,7 +2716,9 @@
             ]
           ]
         },
-        "properties": {}
+        "properties": {
+          "levels": "Medium"
+        }
       },
       {
         "type": "Feature",
@@ -4877,7 +4885,9 @@
             ]
           ]
         },
-        "properties": {}
+        "properties": {
+          "levels": "High"
+        }
       },
       {
         "type": "Feature",
@@ -12798,7 +12808,9 @@
             ]
           ]
         },
-        "properties": {}
+        "properties": {
+          "levels": "Low"
+        }
       },
       {
         "type": "Feature",
@@ -13575,7 +13587,9 @@
             ]
           ]
         },
-        "properties": {}
+        "properties": {
+          "levels": "High"
+        }
       },
       {
         "type": "Feature",
@@ -18114,7 +18128,9 @@
             ]
           ]
         },
-        "properties": {}
+        "properties": {
+          "levels": "Medium"
+        }
       },
       {
         "type": "Feature",
