@@ -19,6 +19,14 @@ const routes: Routes = [
     path: 'test2',
     loadChildren: () => import('./test2/test2.module').then( m => m.Test2PageModule)
   },
+  {
+    path: 'main-stats',
+    loadChildren: () => import('./main-stats/main-stats.module').then( m => m.MainStatsPageModule)
+  },
+  {
+    path: 'testing-stats',
+    loadChildren: () => import('./testing-stats/testing-stats.module').then( m => m.TestingStatsPageModule)
+  },
 ];
 
 @NgModule({

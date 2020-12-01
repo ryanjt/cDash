@@ -16,44 +16,69 @@
                 <ion-col col-12 col-md-6 col-lg-4 col-xl-3>
                     <ion-card>
                         <ion-card-header>
-                            Bar Chart
+                            <h1>COVID-19 Dashboard - 🏴󠁧󠁢󠁳󠁣󠁴󠁿</h1>
                         </ion-card-header>
                         <ion-card-content>
-                            <div style="overflow-x: scroll">
-                            <div class="chart-container" style="position: relative;  width:900px;">
-                                <canvas #barCanvas></canvas>
-                            </div>
-                            </div>
-                            
+                            <p style="font-size:20px;">Welcome to the COVID-19 Dashboard for Scotland. Here you will be able to find;</p>
+                            <ion-list>
+                                <ion-item>
+                                  <ion-label>Daily Updates</ion-label>
+                                </ion-item>
+                                <ion-item>
+                                  <ion-label>Main Statistics</ion-label>
+                                </ion-item>
+                                <ion-item>
+                                  <ion-label>Areas that are affected around you</ion-label>
+                                </ion-item>
+                                <ion-item>
+                                  <ion-label>Testing Statistics</ion-label>
+                                </ion-item>
+                               
+                              </ion-list>
+                              
                         </ion-card-content>
                     </ion-card>
-
-
-                    <ion-card>
+                    <ion-card style="display: inline-block; width:500px;height:500px;margin-left:4%;">
                         <ion-card-header>
-                            Doughnut Chart
+                            <h1>Last Updated</h1>
                         </ion-card-header>
                         <ion-card-content>
-                            <canvas #doughnutCanvas></canvas>
+                            <p style="font-size:20px;">The last update; 20/11/2020 at 14:00:00. All statistics are from the Public Health Scotland website. More information can be seen <a href="https://www.opendata.nhs.scot/dataset/covid-19-in-scotland">here</a></p>
+                           
+                        </ion-card-content>
+                    </ion-card>
+                    <ion-card style="display: inline-block;width:500px;height:500px;margin-left:4%;">
+                        <ion-card-header>
+                            <h1>Twitter</h1>
+                        </ion-card-header>
+                        <ion-card-content>
+                            <p style="font-size:20px;">Contact us here</p>
+                            <p style="font-size:20px;">🐦 Twitter: C19DashUK </p>
+                            <p style="font-size:20px;">📧 Email: admin@C19dash.uk</p>
+                            <p style="font-size:20px;">📞 Phone: 01311 1111</p>
+                           
+                        </ion-card-content>
+                    </ion-card>
+                    <ion-card style="display: inline-block;width:500px;height:500px;margin-left:4%;">
+                        <ion-card-header>
+                            <h1>Latest News</h1>
+                        </ion-card-header>
+                        <ion-card-content>
+                            <p style="font-size:20px;">Welcome to the COVID-19 Dashboard for Scotland. Here you will be able to find;</p>
+                           
                         </ion-card-content>
                     </ion-card>
 
-                    <ion-card>
-                        <ion-card-header>
-                            Line Chart
-                        </ion-card-header>
-                        <ion-card-content>
-                            <div>
-                                <canvas #lineCanvas></canvas>
-                            </div>
-                            
-                        </ion-card-content>
-                    </ion-card>
+
+                   
                 </ion-col>
             </ion-row>
 
         </ion-grid>
     </div>
 </ion-content>
-<script src="node_modules/chart.js/Chart.min.js"></script>
-<script src="node_modules/angular-chart.js/dist/angular-chart.min.js"></script>
+<ion-footer>
+    <ion-toolbar>
+      <ion-title>© ryanjt - 2020</ion-title>
+    </ion-toolbar>
+  </ion-footer>

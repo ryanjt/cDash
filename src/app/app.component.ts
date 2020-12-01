@@ -47,12 +47,22 @@ export class AppComponent {
       {
         title : "Daily Updates",
         url   : "/test2",
-        icon  : "calendar-outline"
+        icon  : "calendar"
+      },
+      {
+        title : "Main Stats",
+        url   : "/main-stats",
+        icon  : "bar-chart"
       },
       {
         title : "Affected Areas",
         url   : "/test1",
-        icon  : "alert-outline"
+        icon  : "alert"
+      },
+      {
+        title : "Testing Stats",
+        url   : "/testing-stats",
+        icon  : "flask"
       },
       
     ]
