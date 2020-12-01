@@ -25,7 +25,7 @@ export class Test1Page implements OnInit {
     this.geolocation.getCurrentPosition().then((resp) => {
       lat= resp.coords.latitude
       long = resp.coords.longitude
-      mapboxgl.accessToken = 'token';
+      mapboxgl.accessToken = 'key';
       let url = 'https://edinburghcouncilmaps.info/arcgis/rest/services/Misc/INSPIRE/MapServer/27/query?where=1%3D1&outFields=NATURALCOM,Shape&outSR=4326&f=json';
       var map = new mapboxgl.Map({
       container: 'map',
@@ -35,6 +35,7 @@ export class Test1Page implements OnInit {
       
       });
       map.on('load', function () {
+        
         map.addSource('regions', {
        type: 'geojson',
        data: 'https://ryanjt.github.io/cDash/data.json'
@@ -58,13 +59,13 @@ export class Test1Page implements OnInit {
         
         /* other */ '#00ac46'
         ],
-     'fill-outline-color': 'black',
-     'fill-opacity': 0.8,
+     'fill-outline-color': '#EBEAEA',
+     'fill-opacity': 0.7,
      
      
      
      },
-
+     
      
      
      });

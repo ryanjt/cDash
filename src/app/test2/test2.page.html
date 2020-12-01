@@ -4,7 +4,65 @@
             <ion-menu-button color="dark"></ion-menu-button>
         </ion-buttons>
         <ion-title>
-            Test2
+            Daily Updates
+            <ion-badge color="secondary">3</ion-badge>
         </ion-title>
     </ion-toolbar>
 </ion-header>
+<ion-content padding>
+    <!-- <ion-input #text1 class="rounded-inp single-inp" type="text" placeholder="Location"></ion-input> -->
+    <div class="ion-padding">
+        <ion-grid>
+            <ion-row>
+                <ion-col col-12 col-md-6 col-lg-4 col-xl-3>
+                    <ion-card>
+                        <ion-card-header>
+                            <h3>Daily Cases</h3>
+                        </ion-card-header>
+                        <ion-card-content>
+                          <div style="overflow-x: scroll">
+                            <div class="chart-container" style="position: relative; width:900px;">
+                            <canvas #doughnutCanvas></canvas>
+                            </div>
+                            </div>
+                        </ion-card-content>
+                    </ion-card>
+  
+                    <ion-card>
+                        <ion-card-header>
+                          <h3>Daily Deaths</h3>
+                        </ion-card-header>
+                        <ion-card-content>
+                            <div style="overflow-x: scroll">
+                            <div class="chart-container" style="position: relative;  width:900px;">
+                                <canvas #barCanvas></canvas>
+                            </div>
+                            </div>
+                            
+                        </ion-card-content>
+                    </ion-card>
+                    <ion-card>
+                        <ion-card-header>
+                          <h3>Daily Cases by Health Board</h3>
+                        </ion-card-header>
+                        <ion-card-content>
+                            <div style="overflow-x: scroll">
+                            <div class="chart-container" style="position: relative;  width:900px;">
+                                <canvas #lineCanvas></canvas>
+                            </div>
+                            </div>
+                            
+                        </ion-card-content>
+                    </ion-card>
+  
+  
+                   
+                    
+                </ion-col>
+            </ion-row>
+  
+        </ion-grid>
+    </div>
+  </ion-content>
+  <script src="node_modules/chart.js/Chart.min.js"></script>
+  <script src="node_modules/angular-chart.js/dist/angular-chart.min.js"></script>

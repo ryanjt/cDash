@@ -60,7 +60,7 @@ export class AppComponent {
         icon  : "alert"
       },
       {
-        title : "Testing Stats",
+        title : "Testing Stats " ,
         url   : "/testing-stats",
         icon  : "flask"
       },
