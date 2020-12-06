@@ -25,7 +25,7 @@ export class Test1Page implements OnInit {
     this.geolocation.getCurrentPosition().then((resp) => {
       lat= resp.coords.latitude
       long = resp.coords.longitude
-      mapboxgl.accessToken = 'key';
+      mapboxgl.accessToken = 'pk.eyJ1IjoicnlqdDk5IiwiYSI6ImNraGZnZXo5NDBia2YycW53MzdhdmFraG4ifQ.1yMt9nEj2VASFPG-H3U2sA';
       let url = 'https://edinburghcouncilmaps.info/arcgis/rest/services/Misc/INSPIRE/MapServer/27/query?where=1%3D1&outFields=NATURALCOM,Shape&outSR=4326&f=json';
       var map = new mapboxgl.Map({
       container: 'map',
