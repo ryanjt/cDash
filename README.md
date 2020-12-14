@@ -1,7 +1,8 @@
 # cDash
-A COVID-19 Dashboard Hybrid Mobile Application created with Ionic.
-<img src="/2.png" alt="Map Image" height="350" style="padding-bottom:10px;"/><img src="/1.png" alt="Image" height="350"/>
 
+<img src="/2.png" alt="Map Image" height="350" style="padding-bottom:10px;"/><img src="/1.png" alt="Image" height="350"/>
+# About
+A COVID-19 Dashboard Hybrid Mobile Application created with Ionic.
 # Features
 * Daily Updates
 * Main Stats
