@@ -19,14 +19,7 @@ export class TestingStatsPage implements OnInit {
   private lineChart: Chart;
   private data1: any;
   constructor() {}
-  getRandomColor() {
-    var letters = '0123456789ABCDEF'.split('');
-    var color = '#';
-    for (var i = 0; i < 6; i++ ) {
-        color += letters[Math.floor(Math.random() * 16)];
-    }
-    return color;
-}
+  
 
 
   ngOnInit() {
@@ -77,6 +70,7 @@ export class TestingStatsPage implements OnInit {
   
       
     });
+    // Generate Random Colours - called when dynamic colours are needed for data visualisation.
     var dynamicColors = function() {
       var letters = '0123456789ABCDEF'.split('');
       var color = '#';
